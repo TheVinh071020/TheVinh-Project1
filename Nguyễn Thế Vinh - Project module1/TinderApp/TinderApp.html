@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tinder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./TinderApp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="window">
+      <aside>
+        <nav class="aside-nav">
+          <nav class="aside-nav-top">
+            <nav class="container-nav-top">
+              <div class="nav-avt">
+                <a href="https://tinder.com/app/profile"
+                  ><div class="avt"><img id="avatar" src="./avt.jpg" alt="" /></div>
+                </a>
+                <span id="name_user">Thế Vinh</span>
+              </div>
+              <div class="nav-icon">
+                <div>
+                  <a href="https://tinder.com/app/explore"><i class="fa-solid fa-table"></i></a>
+                  
+                </div>
+                <div>
+                  <a href="https://tinder.com/app/explore"><i class="fa-solid fa-suitcase"></i></a>
+                  
+                </div>
+                <div>
+                  <a href=""><i class="fa-solid fa-shield"></i></a>
+                  
+                </div>
+              </div>
+            </nav>
+            <div>
+              <button id="logout">Đăng xuất</button>
+            </div>
+            <nav class="section-nav">
+              <div id="match"><button> Các tương hợp </button></div>
+              <div id="messenger"><button></button> </div>
+            </nav>
+          </nav>
+          <nav class="aside-nav-bottom">
+            <div id="top-block">
+              <div id="list-match" class="container-nav-bottom">
+                <!-- <div class="card" id="profile">
+                  <div>
+                    <img src="./avt.jpg" alt="">
+                    <h6 class="profile name"  >Ngọc Trinh</h6>
+                  </div>
+                </div> -->
+                <!-- <div class="card2 ">
+                  <div>
+                    <h6 class="profile  name">Hoa</h6>
+                  </div>
+                </div>
+                <div class="card3">
+                  <div>
+                    <h6 class="profile  name">Lan</h6>
+                  </div>
+                </div> -->
+                <!-- <div class="card3">
+                  <div>
+                    <h6 class="profile  name">Lan</h6>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="main-messenger1">
+              <div class="container-messenger ">
+                  <!-- <div class="avt">
+                    <img src="./ngam-ngoc-trinh-diu-dang-nu-tinh-tu-khi-chuyen-sang-kieu-toc-ngan-20230406063918.jpg" alt="">  
+                  </div>
+                  <div class="name">
+                    <h5>Ngọc Trinh</h5>
+                    <p>Nhập tin nhắn</p>
+                  </div> -->
+              </div>
+            </div>
+          </nav>
+        </nav>
+        
+      </aside>
+      <div id="show-messenger">
+        <div >
+          <div class="main-messenger">
+            <div class="main-pro">
+              <button class="close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+          </div>
+          <div class="fit-bottom">
+            <div class="chat-content">
+              <!-- <div class="users1" id="left">
+                <img src="./avt.jpg" alt="">
+                <div>afaadf</div>
+              </div>
+              <div class="users2" id="right">
+                <div>dafsd</div>
+                <img src="./ngam-ngoc-trinh-diu-dang-nu-tinh-tu-khi-chuyen-sang-kieu-toc-ngan-20230406063918.jpg" alt="">
+              </div>  -->
+            </div>
+            <div class="input-messenger">
+                <input id="input-text" type="text" placeholder="Nhập tin nhắn ">
+                <button id="btnMess">Gửi</button>      
+            </div> 
+          </div>
+        </div> 
+        <div class="main-right">
+          <!-- <div>
+            <img src="./ngam-ngoc-trinh-diu-dang-nu-tinh-tu-khi-chuyen-sang-kieu-toc-ngan-20230406063918.jpg" alt="">
+            <div class="">
+              <h5>Ngọc Trinh 25</h5>
+              <div>
+                <i class="fa-solid fa-house"></i>
+                Sống tại Hà Nội
+              </div>
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                Cách 5km
+              </div>
+            </div>
+          </div> -->
+        </div> 
+      </div>
+      <main>
+        <div class="main-div">
+          <div class="slide">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-inner div-img" id="list-img">
+                <!-- <div class="carousel-item">
+                  <div>
+                    <div class="infor">
+                      <h5>Ngọc Trinh 25</h5>
+                      <div>
+                        <i class="fa-solid fa-house"></i>
+                        Sống tại Hà Nội
+                        <i class="fa-solid fa-location-dot"></i>
+                        Cách 5km
+                      </div>
+                    </div>
+                    <div class="icon-item">
+                      <div class="document">
+                        <i
+                          class="fa-regular fa-circle-xmark"
+                          id="pass"
+                          style="color: #ff0f0f"
+                        ></i>
+                      </div>
+                      <div class="icon2">
+                        <i
+                          class="fa-solid fa-heart"
+                          id="like"
+                          style="color: #fd44a7"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="./ngam-ngoc-trinh-diu-dang-nu-tinh-tu-khi-chuyen-sang-kieu-toc-ngan-20230406063918.jpg"
+                    class="d-block"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    <div class="infor">
+                      <h5>Hoa</h5>
+                      <div>
+                        <i class="fa-solid fa-house"></i>
+                        Sống tại Hà Nội
+                        <i class="fa-solid fa-location-dot"></i>
+                        Cách 5km
+                      </div>
+                    </div>
+                    <div class="icon-item">
+                      <div class="icon1">
+                        <i
+                          class="fa-regular fa-circle-xmark"
+                          style="color: #ff0f0f"
+                        ></i>
+                      </div>
+                      <div class="icon2">
+                        <i class="fa-solid fa-heart" style="color: #fd44a7"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="./ngoctrinh_EIKV.jpg" class="d-block" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    <div class="infor">
+                      <h5>Ngọc Trinh 25</h5>
+                      <div>
+                        <i class="fa-solid fa-house"></i>
+                        Sống tại Hà Nội
+                        <i class="fa-solid fa-location-dot"></i>
+                        Cách 5km
+                      </div>
+                    </div>
+                    <div class="icon-item">
+                      <div class="icon1">
+                        <i
+                          class="fa-regular fa-circle-xmark"
+                          style="color: #ff0f0f"
+                        ></i>
+                      </div>
+                      <div class="icon2">
+                        <i class="fa-solid fa-heart" style="color: #fd44a7"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="./tuyển-tập-ảnh-gái-xinh-trung-quốc-xin-đẹp-ngất-ngây-v0-1cusyi5jt3r91.webp"
+                    class="d-block"
+                    alt="..."
+                  />
+                </div> -->
+              </div>
+              <div>
+                <div id="successful-match">
+                  <p>Đã match thành công</p>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev "
+                id="btnlike"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                id="btnlike"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="none-user">
+        <div class="none-users">
+          <img src="./avt.jpg" alt="">
+          <p>Bạn tương hợp tiềm năng trong khu vực của bạn không còn ai cả</p>
+        </div>
+      </div>
+    </div>
+  
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./TinderApp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

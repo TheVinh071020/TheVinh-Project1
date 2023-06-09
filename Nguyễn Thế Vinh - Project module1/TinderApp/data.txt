@@ -1,0 +1,356 @@
+============================================users
+[
+  {
+    "id" : "1",
+    "email": "vinhto1a@gmail.com",
+    "password": "Vinhto1a@"
+  },
+  {
+    "id" : "2",
+    "email": "ngoctrinh@gmail.com",
+    "password": "Ngoctrinh123@"
+  },
+  {
+    "id" : "3",
+    "email": "hoa@gmail.com",
+    "password": "Hoaxinh123@"
+  },
+  {
+    "id" : "4",
+    "email": "lan@gmail.com",
+    "password": "Lanxinh123@"
+  },
+  {
+    "id" : "5",
+    "email": "thao@gmail.com",
+    "password": "Thaoxinh123@"
+  },
+  {
+    "id" : "6",
+    "email": "Huong@gmail.com",
+    "password": "Huongxinh123@"
+  },
+  {
+    "id" : "8",
+    "email": "Ha@gmail.com",
+    "password": "Haxinh123@"
+  },	
+  {
+    "id" : "9",
+    "email": "Minhanh@gmail.com",
+    "password": "Minhanhxinh123@"
+  },
+  {
+    "id" : "10",
+    "email": "Hanh@gmail.com",
+    "password": "Hanhxinh123@"
+  },
+  {
+    "id" : "11",
+    "email": "Sontung@gmail.com",
+    "password": "Sontung123@"
+  },
+  {
+    "id" : "12",
+    "email": "Soobin@gmail.com",
+    "password": "Soobin123@"
+  },
+  {
+    "id" : "13",
+    "email": "Mono@gmail.com",
+    "password": "Mono123@"
+  },
+  {
+    "id" : "14",
+    "email": "Huy@gmail.com",
+    "password": "Huy123@"
+  },
+  {
+    "id" : "15",
+    "email": "Hoang@gmail.com",
+    "password": "Hoang123@"
+  },
+  {
+    "id" : "16",
+    "email": "Cuon@gmail.com",
+    "password": "Cuong123@"
+  }
+]
+
+==================================================== userTinder
+
+[
+{
+  "id": "1",
+  "name": "Thế Vinh",
+  "age": 21,
+  "address": "Hà nội",
+  "location": "1km",
+  "image": "./avt.jpg",
+  "email": "vinhto1a@gmail.com"
+},
+{
+  "id": "2",
+  "name": "Ngọc Trinh",
+  "age": 25,
+  "address": "Trà Vinh",
+  "location": "2km",
+  "image": "./ngam-ngoc-trinh-diu-dang-nu-tinh-tu-khi-chuyen-sang-kieu-toc-ngan-20230406063918.jpg",
+  "email": "ngoctrinh@gmail.com"
+},
+{
+  "id": "3",
+  "name": "Hoa",
+  "age": 20,
+  "address": "Hà nội",
+  "location": "5km",
+  "image": "./ngoctrinh_EIKV.jpg",
+  "email": "hoa@gmail.com"
+},
+{
+  "id": "4",
+  "name": "Lan",
+  "age": "23",
+  "address": "Hồ Chí Minh",
+  "location": "10km",
+  "image": "./tuyển-tập-ảnh-gái-xinh-trung-quốc-xin-đẹp-ngất-ngây-v0-1cusyi5jt3r91.webp",
+  "email": "lan@gmail.com"
+},
+{
+  "id": "5",
+  "name": "Thảo",
+  "age": 20,
+  "address": "Thanh Hóa",
+  "location": "15km",
+  "image":"./Thảo.jpg",
+  "email": "thao@gmail.com"
+},
+{
+  "id": "6",
+  "name": "Hương",
+  "age": 20,
+  "address": "Hà Nội",
+  "location": "6 km",
+  "image":"./anh-gai-xinh-10.jpg",
+  "email": "Huong@gmail.com"
+},
+{
+  "id": "7",
+  "name": "Linh",
+  "age": 19,
+  "address": "Hà Nội",
+  "location": "8 km",
+  "image":"./02001223-gai-dep-toc-dai-ngau-1.jpg",
+  "email": "Linh@gmail.com"
+},
+{
+  "id": "8",
+  "name": "Hà",
+  "age": 22,
+  "address": "Hà Nội",
+  "location": "3 km",
+  "image":"./anh-gai-xinh-cuc-dep.jpg",
+  "email": "Ha@gmail.com"
+},
+{
+  "id": "9",
+  "name": "Minh Anh",
+  "age": 24,
+  "address": "Thái Bình",
+  "location": "100 km",
+  "image":"./03191314-9-anh-gai-xinh-toc-dai.jpeg",
+  "email": "Minhanh@gmail.com"
+},
+{
+  "id": "10",
+  "name": "Hạnh",
+  "age": 24,
+  "address": "Hà tây",
+  "location": "20 km",
+  "image":"./thuytrang-2731-1616857929781.webp",
+  "email": "Hanh@gmail.com"
+},
+{
+  "id" : "11",
+  "name": "Sơn Tùng",
+  "age": 28,
+  "address": "Thái Bình",
+  "location": "80 km",
+  "image":"./246739_6-7-son-tung.jpg",
+  "email": "Sontung@gmail.com"
+},
+{
+  "id": "12",
+  "name": "Soobin",
+  "age": 30,
+  "address": "Hà Nội",
+  "location": "5 km",
+  "image":"./y10.webp",
+  "email": "Soobin@gmail.com"
+},
+{
+  "id": "13",
+  "name": "Mono",
+  "age": "23",
+  "address": "Thái Bình",
+  "location": "5 km",
+  "image":"./Mono-7.jpg",
+  "email": "Mono@gmail.com"
+},
+{
+  "id": "14",
+  "name": "Huy",
+  "age": 21,
+  "address": "Hà Nội",
+  "location": "4 km",
+  "image":"./anh-trai-deo-kinh-che-mat.jpg",
+  "email": "Huy@gmail.com"
+},
+{
+  "id": "15",
+  "name": "Hoàng",
+  "age": 25,
+  "address": "Hải Phòng",
+  "location": "50 km",
+  "image":"./hinh-anh-trai-cool-ngau-16.jpg",
+  "email": "Hoang@gmail.com"
+},
+{
+  "id": "16",
+  "name": "Cường",
+  "age": "27",
+  "address": "Hà Nội",
+  "location": "11 km",
+  "image":"./anh-trai-han-quoc-sieu-dep_023546215.jpg",
+  "email": "Cuon@gmail.com"
+}
+]
+
+=====================================================================match
+[
+    {
+        "email": "vinhto1a@gmail.com",
+        "name": "Thế Vinh",
+        "like": [
+            "ngoctrinh@gmail.com"
+        ],
+        "unlike": [],
+        "match": [
+            "ngoctrinh@gmail.com"
+        ]
+    },
+    {
+        "email": "ngoctrinh@gmail.com",
+        "name": "Ngọc Trinh",
+        "unlike": [
+            "vinhto1a@gmail.com"
+        ],
+        "unlike": [],
+        "match": [
+            "vinhto1a@gmail.com"
+        ]
+    },
+    {
+        "email": "hoa@gmail.com",
+        "name": "Hoa",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "lan@gmail.com",
+        "name": "Lan",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "thao@gmail.com",
+        "name": "Thảo",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "huong@gmail.com",
+        "name": "Hương",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "linh@gmail.com",
+        "name": "Linh",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "ha@gmail.com",
+        "name": "Hà",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "minhanh@gmail.com",
+        "name": "Minh Anh",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    },
+    {
+        "email": "hanh@gmail.com",
+        "name": "Hạnh",
+        "like": [
+            ""
+        ],
+        "unlike": [],
+        "match": [
+            ""
+        ]
+    }
+]
+============================================================== formmess
+[
+    {
+        "chusohuu": [
+            "vinhto1a@gmail.com",
+            "ngoctrinh@gmail.com"
+        ],
+        "noidungchat": [
+            {
+                "chu": "vinhto1a@gmail.com",
+                "noidung": "Chào cậu"
+            }
+        ]
+    }
+]

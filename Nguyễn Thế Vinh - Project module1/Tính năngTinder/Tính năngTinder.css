@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0px;
+}
+
+.container-header .head-left .img-logo{
+    width: 120px;
+    height: auto;
+}
+.header{
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    background-repeat:no-repeat ;
+    background-image: url(https://tinder.com/static/build/744fe6d80266616aba687006b7d764ad.webp);
+}
+.container-header .head-left .ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+}
+.ul b{
+        margin: 0 10px;
+}
+.ul a{
+  text-decoration: none;
+  color: white;
+}
+.container-header{
+    background: linear-gradient(to bottom, rgba(247, 156, 110, 0.929),rgb(225, 86, 153));
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-left{
+    margin-left: 15px;
+    font-size: x-large;
+    left: 2%;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.head-right{
+    font-size: x-large;
+    right: 5%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 450px;
+}
+.language1{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.login1{
+    color: whitesmoke;
+    border: 1px ridge;
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255, 123, 75, 0.929),rgba(255, 91, 159, 0.929));
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    font-size: large;
+}
+.footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: #343434;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  
+  
+  .footer-social a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .footer-social i {
+    font-size: 24px;
+  }
+  
+  .footer-social a:first-child {
+    margin-left: 0;
+  }
+  .F1-end{
+    display: flex   ;
+    justify-content: end;
+    margin-right: 10%;
+}
+.container-body-top{
+  background-color: rgb(237, 236, 236);
+  padding-top: 50px;
+ 
+}
+.body-top{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.container-body-top .container-left{
+  padding: 20px 30px;
+  width: 510px;
+}
+.container-body-top .container-left p{
+  font-size: 40px;
+  
+}
+.container-body-top .container-left .text{
+  color: #666666;
+  padding: 20px 0;
+  
+}
+.container-body-top .container-left .btn{
+  border: 1 ridge;
+  border-radius: 50px;
+  font-size: 20px;
+  background: linear-gradient(to bottom, rgba(255, 123, 75, 0.929),rgba(255, 91, 159, 0.929));  
+  color: rgb(255, 255, 255);
+}
+.container-body-top .container-left .btn-div{
+  justify-content: center;
+  display: flex;
+
+}
+.container-body-top .container-right{
+  width: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-body-top .img{
+  width: 350px;
+  height: 100%;
+}
+
+@media (max-width: 400px){
+  .ul a{
+      display: none;
+  }
+  .head-right .language1 {
+      display: none;
+  }
+  
+  .head-right .login1 {
+      display: none;
+  }
+  .welcom b{
+      font-size: 25px;
+      color: rgba(255, 91, 159, 0.929);
+      display: flex;
+      justify-content: s;  
+      align-items: center; 
+  }
+  .sign-login{
+      display: flex;
+      flex-direction: column;
+      justify-content:center; 
+      padding-left: 30%;
+  }
+  .footer-links a {
+      color: #333;
+      text-decoration: none;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .container-body-top{
+    
+    width: 390px;
+    height: 520px;
+  
+  }   
+}
